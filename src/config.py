@@ -40,7 +40,7 @@ class Config:
     tushare_token: Optional[str] = None
     
     # === AI 分析配置 ===
-    gemini_api_key: Optional[str] = AIzaSyBhpwLvhCW1Z_bJiHg4Xjm7AZPM8VT9uUY
+    gemini_api_key: Optional[str] = "AIzaSyBhpwLvhCW1Z_bJiHg4Xjm7AZPM8VT9uUY"
     gemini_model: str = "gemini-3-flash-preview"  # 主模型
     gemini_model_fallback: str = "gemini-2.5-flash"  # 备选模型
     gemini_temperature: float = 0.7  # 温度参数（0.0-2.0，控制输出随机性，默认0.7）
